@@ -1,0 +1,105 @@
+.footer {
+    height: 35vh;
+    line-height: 2.5;
+    text-transform: uppercase;
+    background-color: #111111;
+}
+
+.footer h6 {
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: -25px;
+    color: #ffffff;
+}
+
+.footer-midias i {
+    margin-left: 10px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.footer-midias i:hover {
+    color: #00A2E8;
+    transition: ease-in-out 2s;
+}
+
+.footer p {
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.footer-nome:hover {
+    color: #00A2E8;
+    transition: ease-in-out 2s;
+}
+
+ .branco {
+    height: 10vh;
+    background-color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+    .header-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer {
+        line-height: 3;
+    }
+
+    .footer h6 {
+        font-size: 25px;
+    }
+
+    .footer-midias i {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .footer p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 455px) {
+    .footer {
+        line-height: 3;
+    }
+
+    .footer h6 {
+        font-size: 25px;
+    }
+
+    .footer-midias i {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .footer p {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer {
+        line-height: 3;
+    }
+
+    .footer h6 {
+        font-size: 25px;
+    }
+
+    .footer-midias i {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .footer p {
+        font-size: 8px;
+    }
+}

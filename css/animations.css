@@ -1,0 +1,77 @@
+/*animação para a letras da cap*/
+.animacao-fading {
+    animation: fading 5s infinite
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0
+    } 50% {
+        opacity: 1
+    }100% {
+        opacity: 0
+    }
+}
+
+/*animação para abrir modal fade in*/
+.animacao-opacity {
+    animation:opac 0.8s
+}
+
+@keyframes opac{
+    from{
+        opacity:0
+    } to{
+        opacity:1
+    }
+}
+
+/*animação zoom abrir modal zoom*/
+.animacao-zoom {
+    animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom{
+    from{
+        transform:scale(0)
+    } 
+    
+    to{
+        transform:scale(1)
+    }
+}
+
+/*animaçao top*/
+.animacao-top{
+    position: relative;
+    animation: animatetop 0.4s
+}
+
+@keyframes animatetop{
+    from {
+        top:-300px;
+        opacity:0
+    } 
+    
+    to {
+        top:0;
+        opacity:1
+    }
+}
+
+/*para abrir o contato*/
+.form-contato {
+    animation: modal 3s;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transition: translate3d(0, -60px, 0);
+    }
+
+    top {
+        opacity: 1;
+        transition: translate3d(0, 0, 0);
+    }
+}
