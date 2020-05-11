@@ -144,6 +144,7 @@ body {
 
 .profissionais p {
     margin-top: 25px;
+    margin-bottom: 25px;
     font-size: 20px;
     font-weight: 700;
     color: #181717;
@@ -234,7 +235,7 @@ body {
 .form-contato {
     background-color: #ffffff;
     width: 40vw;
-    height: 57vh;
+    height: 59vh;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -280,7 +281,8 @@ body {
 
 .modal .btn-form {
     display: block;
-    margin-left: 200px;
+    margin-left: 180px;
+    margin-top: 5px;
     border: 1px solid #00A2E8;
 }
 
